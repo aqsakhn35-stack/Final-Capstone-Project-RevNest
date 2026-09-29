@@ -1,0 +1,97 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --card-bg: #f5f5f5;
+  --accent: #f5a623;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #f0f0f0;
+  --card-bg: #1e1e1e;
+  --accent: #f5a623;
+}
+
+* { box-sizing: border-box; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--card-bg);
+}
+.nav-links { display: flex; gap: 1.2rem; align-items: center; }
+.nav-link { color: var(--text); text-decoration: none; }
+.nav-link.active { color: var(--accent); font-weight: bold; }
+.badge { background: var(--accent); border-radius: 50%; padding: 2px 6px; font-size: 0.75rem; }
+.theme-toggle { background: none; border: none; font-size: 1.2rem; cursor: pointer; }
+
+.car-grid, .antique-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.car-card, .antique-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.car-card img, .antique-card img { width: 100%; height: 160px; object-fit: cover; }
+.car-card-body { padding: 1rem; }
+.fav-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.4rem; cursor: pointer; }
+.rarity-tag { background: var(--accent); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; }
+.details-btn { display: inline-block; margin-top: 0.5rem; color: var(--accent); }
+
+.hero { text-align: center; padding: 4rem 1rem; }
+.cta-btn { background: var(--accent); padding: 0.8rem 1.5rem; border-radius: 8px; color: #000; text-decoration: none; }
+
+.testimonial-grid { display: flex; gap: 1rem; flex-wrap: wrap; padding: 1rem 2rem; }
+.testimonial-card { background: var(--card-bg); padding: 1.5rem; border-radius: 10px; width: 260px; text-align: center; }
+.testimonial-card img { width: 60px; height: 60px; border-radius: 50%; }
+
+.filters { display: flex; gap: 0.8rem; flex-wrap: wrap; padding: 1rem 2rem; }
+.filters input, .filters select { padding: 0.5rem; border-radius: 6px; border: 1px solid #ccc; }
+
+.footer { display: flex; flex-wrap: wrap; gap: 2rem; padding: 2rem; background: var(--card-bg); justify-content: space-between; }
+.footer-bottom { width: 100%; text-align: center; padding-top: 1rem; font-size: 0.85rem; }
+
+.car-detail { padding: 2rem; }
+.gallery .main-img { width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; }
+.thumbs { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+.thumbs img { width: 70px; height: 50px; object-fit: cover; cursor: pointer; opacity: 0.6; }
+.thumbs img.active { opacity: 1; border: 2px solid var(--accent); }
+.detail-columns { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+.emi-calculator, .inquiry-form, .review-form { background: var(--card-bg); padding: 1.5rem; border-radius: 10px; flex: 1; min-width: 260px; }
+.emi-calculator label, .inquiry-form input, .inquiry-form textarea, .review-form input, .review-form select, .review-form textarea {
+  display: block; width: 100%; margin: 0.5rem 0; padding: 0.5rem;
+}
+.field-error, .form-error { color: #e33; font-size: 0.85rem; }
+.success-msg { color: green; }
+.brand { font-size: 1.5rem; font-weight: 800; color: var(--accent); text-decoration: none; }
+.navbar { position: sticky; top: 0; z-index: 10; }
+.car-card img, .antique-card img { background: #ddd; }
+.brand { font-size: 1.5rem; font-weight: 800; color: var(--accent); text-decoration: none; }
+.navbar { position: sticky; top: 0; z-index: 10; }
+.car-img { display: block; width: 100%; height: 100%; }
+.car-card > a, .antique-card > a { display: block; height: 180px; }
+.gallery .main-img { height: 380px; border-radius: 10px; overflow: hidden; }
+.thumbs .thumb { width: 90px; height: 60px; padding: 0; border: 2px solid transparent; border-radius: 6px; overflow: hidden; cursor: pointer; opacity: .6; background: none; }
+.thumbs .thumb.active { opacity: 1; border-color: var(--accent); }

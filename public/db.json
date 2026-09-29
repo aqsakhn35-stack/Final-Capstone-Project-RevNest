@@ -1,0 +1,218 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Corolla Altis",
+      "year": 2023,
+      "price": 4500000,
+      "bodyType": "Sedan",
+      "images": ["https://picsum.photos/seed/corolla1/800/500", "https://picsum.photos/seed/corolla2/800/500"],
+      "specs": { "engine": "1.8L", "transmission": "CVT", "fuel": "Petrol", "mileage": "14 km/l", "seats": 5 },
+      "reviews": [
+        { "id": 1, "user": "Ahmed Raza", "rating": 5, "comment": "Smooth ride, great fuel economy." },
+        { "id": 2, "user": "Sara Khan", "rating": 4, "comment": "Comfortable but pricey." }
+      ]
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2022,
+      "price": 6200000,
+      "bodyType": "Sedan",
+      "images": ["https://picsum.photos/seed/civic1/800/500", "https://picsum.photos/seed/civic2/800/500"],
+      "specs": { "engine": "1.5L Turbo", "transmission": "CVT", "fuel": "Petrol", "mileage": "12 km/l", "seats": 5 },
+      "reviews": [
+        { "id": 1, "user": "Bilal Ahmed", "rating": 5, "comment": "Sporty and powerful." }
+      ]
+    },
+    {
+      "id": 3,
+      "make": "Suzuki",
+      "model": "Alto",
+      "year": 2023,
+      "price": 2100000,
+      "bodyType": "Hatchback",
+      "images": ["https://picsum.photos/seed/alto1/800/500"],
+      "specs": { "engine": "0.66L", "transmission": "Manual", "fuel": "Petrol", "mileage": "20 km/l", "seats": 4 },
+      "reviews": [
+        { "id": 1, "user": "Hina Malik", "rating": 4, "comment": "Perfect city car, very economical." }
+      ]
+    },
+    {
+      "id": 4,
+      "make": "Kia",
+      "model": "Sportage",
+      "year": 2023,
+      "price": 8900000,
+      "bodyType": "SUV",
+      "images": ["https://picsum.photos/seed/sportage1/800/500", "https://picsum.photos/seed/sportage2/800/500"],
+      "specs": { "engine": "2.0L", "transmission": "Automatic", "fuel": "Petrol", "mileage": "10 km/l", "seats": 5 },
+      "reviews": [
+        { "id": 1, "user": "Usman Tariq", "rating": 5, "comment": "Great SUV for family trips." }
+      ]
+    },
+    {
+      "id": 5,
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2022,
+      "price": 8500000,
+      "bodyType": "SUV",
+      "images": ["https://picsum.photos/seed/tucson1/800/500"],
+      "specs": { "engine": "2.0L", "transmission": "Automatic", "fuel": "Petrol", "mileage": "11 km/l", "seats": 5 },
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "make": "Toyota",
+      "model": "Yaris",
+      "year": 2023,
+      "price": 4000000,
+      "bodyType": "Sedan",
+      "images": ["https://picsum.photos/seed/yaris1/800/500"],
+      "specs": { "engine": "1.3L", "transmission": "CVT", "fuel": "Petrol", "mileage": "15 km/l", "seats": 5 },
+      "reviews": [
+        { "id": 1, "user": "Fatima Noor", "rating": 4, "comment": "Reliable daily driver." }
+      ]
+    },
+    {
+      "id": 7,
+      "make": "Suzuki",
+      "model": "Swift",
+      "year": 2022,
+      "price": 3200000,
+      "bodyType": "Hatchback",
+      "images": ["https://picsum.photos/seed/swift1/800/500"],
+      "specs": { "engine": "1.2L", "transmission": "Manual", "fuel": "Petrol", "mileage": "18 km/l", "seats": 5 },
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "make": "Honda",
+      "model": "BR-V",
+      "year": 2023,
+      "price": 6800000,
+      "bodyType": "SUV",
+      "images": ["https://picsum.photos/seed/brv1/800/500"],
+      "specs": { "engine": "1.5L", "transmission": "CVT", "fuel": "Petrol", "mileage": "13 km/l", "seats": 7 },
+      "reviews": [
+        { "id": 1, "user": "Zainab Ali", "rating": 5, "comment": "Spacious, great for a big family." }
+      ]
+    },
+    {
+      "id": 9,
+      "make": "Toyota",
+      "model": "Fortuner",
+      "year": 2022,
+      "price": 15500000,
+      "bodyType": "SUV",
+      "images": ["https://picsum.photos/seed/fortuner1/800/500"],
+      "specs": { "engine": "2.7L", "transmission": "Automatic", "fuel": "Petrol", "mileage": "8 km/l", "seats": 7 },
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "make": "Kia",
+      "model": "Picanto",
+      "year": 2023,
+      "price": 3600000,
+      "bodyType": "Hatchback",
+      "images": ["https://picsum.photos/seed/picanto1/800/500"],
+      "specs": { "engine": "1.0L", "transmission": "Automatic", "fuel": "Petrol", "mileage": "16 km/l", "seats": 5 },
+      "reviews": []
+    },
+    {
+      "id": 11,
+      "make": "Volkswagen",
+      "model": "Beetle",
+      "year": 1965,
+      "price": 3500000,
+      "bodyType": "Coupe",
+      "rarity": "Rare",
+      "collectorValue": 3800000,
+      "images": ["https://picsum.photos/seed/beetle1/800/500"],
+      "specs": { "engine": "1.2L Flat-4", "transmission": "Manual", "fuel": "Petrol", "mileage": "N/A", "seats": 4 },
+      "reviews": [
+        { "id": 1, "user": "Collector Adnan", "rating": 5, "comment": "Beautifully restored classic." }
+      ]
+    },
+    {
+      "id": 12,
+      "make": "Ford",
+      "model": "Mustang (Fastback)",
+      "year": 1969,
+      "price": 12000000,
+      "bodyType": "Coupe",
+      "rarity": "Very Rare",
+      "collectorValue": 14500000,
+      "images": ["https://picsum.photos/seed/mustang1/800/500"],
+      "specs": { "engine": "5.0L V8", "transmission": "Manual", "fuel": "Petrol", "mileage": "N/A", "seats": 4 },
+      "reviews": [
+        { "id": 1, "user": "Collector Faisal", "rating": 5, "comment": "A dream muscle car, mint condition." }
+      ]
+    },
+    {
+      "id": 13,
+      "make": "Chevrolet",
+      "model": "Bel Air",
+      "year": 1957,
+      "price": 9500000,
+      "bodyType": "Sedan",
+      "rarity": "Rare",
+      "collectorValue": 11000000,
+      "images": ["https://picsum.photos/seed/belair1/800/500"],
+      "specs": { "engine": "4.3L V8", "transmission": "Automatic", "fuel": "Petrol", "mileage": "N/A", "seats": 5 },
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "make": "Jaguar",
+      "model": "E-Type",
+      "year": 1961,
+      "price": 18000000,
+      "bodyType": "Convertible",
+      "rarity": "Extremely Rare",
+      "collectorValue": 22000000,
+      "images": ["https://picsum.photos/seed/etype1/800/500"],
+      "specs": { "engine": "3.8L Inline-6", "transmission": "Manual", "fuel": "Petrol", "mileage": "N/A", "seats": 2 },
+      "reviews": [
+        { "id": 1, "user": "Collector Hamza", "rating": 5, "comment": "Iconic design, worth every penny." }
+      ]
+    },
+    {
+      "id": 15,
+      "make": "Volkswagen",
+      "model": "Kombi (Type 2)",
+      "year": 1972,
+      "price": 4200000,
+      "bodyType": "Van",
+      "rarity": "Uncommon",
+      "collectorValue": 4800000,
+      "images": ["https://picsum.photos/seed/kombi1/800/500"],
+      "specs": { "engine": "1.6L Flat-4", "transmission": "Manual", "fuel": "Petrol", "mileage": "N/A", "seats": 8 },
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "make": "Porsche",
+      "model": "911 (Classic)",
+      "year": 1975,
+      "price": 16500000,
+      "bodyType": "Coupe",
+      "rarity": "Rare",
+      "collectorValue": 19000000,
+      "images": ["https://picsum.photos/seed/porsche1/800/500"],
+      "specs": { "engine": "2.7L Flat-6", "transmission": "Manual", "fuel": "Petrol", "mileage": "N/A", "seats": 4 },
+      "reviews": [
+        { "id": 1, "user": "Collector Waqas", "rating": 5, "comment": "Timeless design, drives like a dream." }
+      ]
+    }
+  ],
+  "testimonials": [
+    { "id": 1, "name": "Ali Raza", "rating": 5, "photo": "https://i.pravatar.cc/100?img=1", "message": "Found my dream car within a week. Super smooth process!" },
+    { "id": 2, "name": "Mahnoor Sheikh", "rating": 5, "photo": "https://i.pravatar.cc/100?img=5", "message": "RevNest's EMI calculator helped me plan my budget perfectly." },
+    { "id": 3, "name": "Danish Iqbal", "rating": 4, "photo": "https://i.pravatar.cc/100?img=8", "message": "Loved browsing the antique car collection, truly unique." }
+  ]
+}
